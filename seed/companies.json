@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Razorpay",
+    "domain": "razorpay.com",
+    "careersUrl": "https://razorpay.com/careers",
+    "industry": "fintech",
+    "city": "Bengaluru",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "greenhouse",
+    "slug": "razorpay"
+  },
+  {
+    "name": "Stripe",
+    "domain": "stripe.com",
+    "careersUrl": "https://stripe.com/careers",
+    "industry": "fintech",
+    "city": "Bengaluru",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "greenhouse",
+    "slug": "stripe"
+  },
+  {
+    "name": "Airbnb",
+    "domain": "airbnb.com",
+    "careersUrl": "https://airbnb.com/careers",
+    "industry": "travel",
+    "city": "Remote",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "greenhouse",
+    "slug": "airbnb"
+  },
+  {
+    "name": "Databricks",
+    "domain": "databricks.com",
+    "careersUrl": "https://databricks.com/careers",
+    "industry": "data",
+    "city": "Bengaluru",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "greenhouse",
+    "slug": "databricks"
+  },
+  {
+    "name": "Cloudflare",
+    "domain": "cloudflare.com",
+    "careersUrl": "https://cloudflare.com/careers",
+    "industry": "infrastructure",
+    "city": "Remote",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "greenhouse",
+    "slug": "cloudflare"
+  },
+  {
+    "name": "Robinhood",
+    "domain": "robinhood.com",
+    "careersUrl": "https://robinhood.com/careers",
+    "industry": "fintech",
+    "city": "Remote",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "greenhouse",
+    "slug": "robinhood"
+  },
+  {
+    "name": "Ashby",
+    "domain": "ashbyhq.com",
+    "careersUrl": "https://ashbyhq.com/careers",
+    "industry": "hr tech",
+    "city": "Remote",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "ashby",
+    "slug": "ashby"
+  },
+  {
+    "name": "Linear",
+    "domain": "linear.app",
+    "careersUrl": "https://linear.app/careers",
+    "industry": "productivity",
+    "city": "Remote",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "ashby",
+    "slug": "linear"
+  },
+  {
+    "name": "Ramp",
+    "domain": "ramp.com",
+    "careersUrl": "https://ramp.com/careers",
+    "industry": "fintech",
+    "city": "Remote",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "ashby",
+    "slug": "ramp"
+  },
+  {
+    "name": "Lever",
+    "domain": "lever.co",
+    "careersUrl": "https://lever.co/careers",
+    "industry": "hr tech",
+    "city": "Remote",
+    "detection": "seed_feed_plausible_unverified",
+    "ats": "lever",
+    "slug": "lever"
+  },
+  {
+    "name": "Zerodha",
+    "domain": "zerodha.com",
+    "careersUrl": "https://zerodha.com/careers",
+    "industry": "fintech",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Flipkart",
+    "domain": "flipkart.com",
+    "careersUrl": "https://flipkart.com/careers",
+    "industry": "ecommerce",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "CRED",
+    "domain": "cred.club",
+    "careersUrl": "https://cred.club/careers",
+    "industry": "fintech",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Meesho",
+    "domain": "meesho.com",
+    "careersUrl": "https://meesho.com/careers",
+    "industry": "ecommerce",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Groww",
+    "domain": "groww.in",
+    "careersUrl": "https://groww.in/careers",
+    "industry": "fintech",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "PhonePe",
+    "domain": "phonepe.com",
+    "careersUrl": "https://phonepe.com/careers",
+    "industry": "fintech",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Swiggy",
+    "domain": "swiggy.com",
+    "careersUrl": "https://swiggy.com/careers",
+    "industry": "food delivery",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Zomato",
+    "domain": "zomato.com",
+    "careersUrl": "https://zomato.com/careers",
+    "industry": "food delivery",
+    "city": "Gurugram",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Freshworks",
+    "domain": "freshworks.com",
+    "careersUrl": "https://freshworks.com/careers",
+    "industry": "saas",
+    "city": "Chennai",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Zoho",
+    "domain": "zoho.com",
+    "careersUrl": "https://zoho.com/careers",
+    "industry": "saas",
+    "city": "Chennai",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "TCS",
+    "domain": "tcs.com",
+    "careersUrl": "https://tcs.com/careers",
+    "industry": "it services",
+    "city": "Mumbai",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Infosys",
+    "domain": "infosys.com",
+    "careersUrl": "https://infosys.com/careers",
+    "industry": "it services",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Wipro",
+    "domain": "wipro.com",
+    "careersUrl": "https://wipro.com/careers",
+    "industry": "it services",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Postman",
+    "domain": "postman.com",
+    "careersUrl": "https://postman.com/careers",
+    "industry": "developer tools",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "BrowserStack",
+    "domain": "browserstack.com",
+    "careersUrl": "https://browserstack.com/careers",
+    "industry": "developer tools",
+    "city": "Mumbai",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Chargebee",
+    "domain": "chargebee.com",
+    "careersUrl": "https://chargebee.com/careers",
+    "industry": "saas",
+    "city": "Chennai",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "RazorpayX",
+    "domain": "razorpay.com",
+    "careersUrl": "https://razorpay.com/careers",
+    "industry": "fintech",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Udaan",
+    "domain": "udaan.com",
+    "careersUrl": "https://udaan.com/careers",
+    "industry": "b2b ecommerce",
+    "city": "Bengaluru",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Dream11",
+    "domain": "dream11.com",
+    "careersUrl": "https://dream11.com/careers",
+    "industry": "sports tech",
+    "city": "Mumbai",
+    "detection": "seed_pending_discovery"
+  },
+  {
+    "name": "Nykaa",
+    "domain": "nykaa.com",
+    "careersUrl": "https://nykaa.com/careers",
+    "industry": "ecommerce",
+    "city": "Mumbai",
+    "detection": "seed_pending_discovery"
+  }
+]

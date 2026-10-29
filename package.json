@@ -1,0 +1,12 @@
+{
+  "name": "job-portal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A job portal that collects openings from company career pages and ATS feeds, verifies the apply link points at the official source, and expires a listing the moment it closes at the source.",
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "test": "npm run test --workspace=server",
+    "typecheck": "npm run typecheck --workspace=server && npm run typecheck --workspace=client",
+    "build": "npm run build --workspace=client"
+  }
+}

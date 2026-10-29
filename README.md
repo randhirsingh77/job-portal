@@ -69,35 +69,6 @@ npm run typecheck   # server and client
 npm run build       # client production build
 ```
 
-## Features (all working, no stubs)
-
-Faceted search with batch-year gating · verified badge that states the check
-performed · auto-expire from the source feed · match score **with reasons and
-gaps** · resume-vs-job missing-keyword check · free cross-source application
-tracker with follow-up dates · alerts over email / push / WhatsApp (queued
-honestly when no provider is configured) · drive/government lifecycle cards ·
-college-alumni referral finder (opted-in, self-declared profiles only) ·
-rule-based interview-prep checklists · Apply Assist copy-ready answers ·
-Hinglish job summaries · recruiter claim + post-a-job + employer dashboard ·
-admin source registry, collector health and review queues.
-The full built-vs-roadmap list is in `docs/features.md`.
-
-## Cost: ₹0
-
-| Need | Pick | Tier |
-|---|---|---|
-| Database | Neon PostgreSQL (local/embedded for dev and tests) | Free |
-| Queue | In-process scheduler behind a queue abstraction (Upstash free Redis optional) | Free |
-| API / Web hosting | Render / Vercel | Free |
-| Nightly jobs | GitHub Actions | Free |
-| Job data | Public ATS feeds; Adzuna **free** key; Careerjet free affiliate API | Free |
-| Email alerts | Plain SMTP env (e.g. a free Gmail app password); unset = queued/logged | Free |
-| WhatsApp alerts | Env-provided webhook only; unset = queued/logged, never marked sent | Free |
-
-Free tiers limit rate and scale, not quality. Optional extras (JSearch,
-Jooble, Firecrawl, Gemini) are env-gated only — the system runs fully with
-no key at all, and nothing in the required path needs a paid plan or a card.
-
 ## Docs
 
 - `docs/architecture.md` — system design, pipeline, freshness and dedupe
@@ -105,8 +76,6 @@ no key at all, and nothing in the required path needs a paid plan or a card.
 - `docs/security.md` — auth flow, token rotation, hardening checklist
 - `docs/api.md` — every endpoint
 - `docs/screens.md` — every screen and what it does
-- `docs/features.md` — every researched feature, marked built or roadmap
-- `docs/recruiter-flow.md` — the Stage 2-3 recruiter layer (claim, post, review)
 
 ## Rules I hold this project to
 
