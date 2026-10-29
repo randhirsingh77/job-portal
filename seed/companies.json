@@ -5,7 +5,7 @@
     "careersUrl": "https://razorpay.com/careers",
     "industry": "fintech",
     "city": "Bengaluru",
-    "detection": "seed_feed_plausible_unverified",
+    "detection": "feed_returned_404_needs_rediscovery",
     "ats": "greenhouse",
     "slug": "razorpay"
   },
@@ -15,7 +15,7 @@
     "careersUrl": "https://stripe.com/careers",
     "industry": "fintech",
     "city": "Bengaluru",
-    "detection": "seed_feed_plausible_unverified",
+    "detection": "verified_live_2026-10-29",
     "ats": "greenhouse",
     "slug": "stripe"
   },
@@ -25,7 +25,7 @@
     "careersUrl": "https://airbnb.com/careers",
     "industry": "travel",
     "city": "Remote",
-    "detection": "seed_feed_plausible_unverified",
+    "detection": "verified_live_2026-10-29",
     "ats": "greenhouse",
     "slug": "airbnb"
   },
@@ -35,7 +35,7 @@
     "careersUrl": "https://databricks.com/careers",
     "industry": "data",
     "city": "Bengaluru",
-    "detection": "seed_feed_plausible_unverified",
+    "detection": "verified_live_2026-10-29",
     "ats": "greenhouse",
     "slug": "databricks"
   },
@@ -45,7 +45,7 @@
     "careersUrl": "https://cloudflare.com/careers",
     "industry": "infrastructure",
     "city": "Remote",
-    "detection": "seed_feed_plausible_unverified",
+    "detection": "verified_live_2026-10-29",
     "ats": "greenhouse",
     "slug": "cloudflare"
   },
@@ -55,7 +55,7 @@
     "careersUrl": "https://robinhood.com/careers",
     "industry": "fintech",
     "city": "Remote",
-    "detection": "seed_feed_plausible_unverified",
+    "detection": "verified_live_2026-10-29",
     "ats": "greenhouse",
     "slug": "robinhood"
   },
