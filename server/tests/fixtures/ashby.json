@@ -1,0 +1,4 @@
+{ "jobs": [ { "id": "ab1", "title": "Product Designer", "location": "Mumbai", "jobUrl": "https://jobs.ashbyhq.com/fixtureco/ab1",
+  "publishedAt": "2026-10-27T09:00:00Z", "isRemote": false, "isListed": true, "employmentType": "FullTime",
+  "descriptionPlain": "Figma portfolio work.", "compensation": { "summaryComponents": [ { "fixedRange": { "minValue": 900000, "maxValue": 1400000 } } ] } },
+  { "id": "ab2", "title": "Hidden Role", "location": "Mumbai", "jobUrl": "https://jobs.ashbyhq.com/fixtureco/ab2", "isListed": false, "descriptionPlain": "unlisted" } ] }

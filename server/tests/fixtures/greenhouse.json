@@ -1,0 +1,10 @@
+{
+  "jobs": [
+    { "id": 101, "title": "Frontend Developer (React)", "absolute_url": "https://boards.greenhouse.io/fixtureco/jobs/101",
+      "location": { "name": "Bengaluru, India" }, "first_published": "2026-10-28T09:00:00Z",
+      "content": "&lt;p&gt;Build React and TypeScript apps. Skills: React, TypeScript, Node.js. Freshers and 2026 batch can apply. Contact hr@fixtureco.example&lt;/p&gt;" },
+    { "id": 102, "title": "Data Entry Earn From Home", "absolute_url": "https://boards.greenhouse.io/fixtureco/jobs/102",
+      "location": { "name": "Remote, India" }, "first_published": "2026-10-28T09:00:00Z",
+      "content": "&lt;p&gt;Pay a refundable registration fee of Rs 999 to apply. Like videos and earn Rs 30000 per month.&lt;/p&gt;" }
+  ]
+}
