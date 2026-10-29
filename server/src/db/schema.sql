@@ -125,9 +125,7 @@ CREATE TABLE IF NOT EXISTS jobs (
   repost_count BIGINT NOT NULL DEFAULT 0,
   last_reposted_at TIMESTAMPTZ,
   lifecycle JSONB NOT NULL DEFAULT '{}',
-  search_doc TSVECTOR GENERATED ALWAYS AS (
-    to_tsvector('english', coalesce(title,'') || ' ' || coalesce(array_to_string(skills,' '),'') || ' ' || coalesce(location_text,''))
-  ) STORED,
+  search_doc TSVECTOR,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
@@ -136,6 +134,15 @@ CREATE INDEX IF NOT EXISTS jobs_status_city_deadline_idx ON jobs (status, city, 
 CREATE INDEX IF NOT EXISTS jobs_company_idx ON jobs (company_id);
 CREATE INDEX IF NOT EXISTS jobs_search_doc_gin ON jobs USING GIN (search_doc);
 CREATE INDEX IF NOT EXISTS jobs_skills_gin ON jobs USING GIN (skills);
+CREATE OR REPLACE FUNCTION jobs_search_doc_refresh() RETURNS trigger AS $fn$
+BEGIN
+  NEW.search_doc := to_tsvector('english', coalesce(NEW.title,'') || ' ' || coalesce(array_to_string(NEW.skills,' '),'') || ' ' || coalesce(NEW.location_text,''));
+  RETURN NEW;
+END;
+$fn$ LANGUAGE plpgsql;
+DROP TRIGGER IF EXISTS jobs_search_doc_trigger ON jobs;
+CREATE TRIGGER jobs_search_doc_trigger BEFORE INSERT OR UPDATE OF title, skills, location_text ON jobs
+  FOR EACH ROW EXECUTE FUNCTION jobs_search_doc_refresh();
 CREATE INDEX IF NOT EXISTS jobs_first_seen_idx ON jobs (first_seen_at DESC);
 
 CREATE TABLE IF NOT EXISTS job_sources (

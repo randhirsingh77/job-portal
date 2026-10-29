@@ -51,9 +51,9 @@ export async function pipelineJob(source: SourceRow, company: CompanyRow, raw: R
   if (rank <= canonicalRank) {
     updates.push('repost_count = repost_count + CASE WHEN status=\'expired\' THEN 1 ELSE 0 END', 'last_reposted_at = CASE WHEN status=\'expired\' THEN now() ELSE last_reposted_at END', 'snippet=$2', 'skills=$3', 'apply_url=$4', 'canonical_source_id=$5', 'trust_tier=$6', 'risk_score=$7', 'risk_reasons=$8', 'badge_text=$9', "status = CASE WHEN status='blocked' THEN 'blocked' ELSE 'live' END");
     params.push(snippet, extracted.skills, applyUrl, source.id, trust.tier, trust.riskScore, trust.reasons, trust.badgeText);
-    if (trust.blocked) updates.push("status='blocked'");
   }
   await q(`UPDATE jobs SET ${updates.join(', ')} WHERE id=$1`, params);
+  if (trust.blocked && rank <= canonicalRank) await q("UPDATE jobs SET status='blocked' WHERE id=$1", [jobId]);
   await q(`INSERT INTO job_sources (job_id, source_id, source_url, source_rank) VALUES ($1,$2,$3,$4)
            ON CONFLICT (job_id, source_id) DO UPDATE SET last_seen_at=now(), source_url=EXCLUDED.source_url`, [jobId, source.id, applyUrl, rank]);
   return 'updated';
