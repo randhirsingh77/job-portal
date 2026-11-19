@@ -90,7 +90,7 @@ The full built-vs-roadmap list is in `docs/features.md`.
 | Queue | In-process scheduler behind a queue abstraction (Upstash free Redis optional) | Free |
 | API / Web hosting | Render / Vercel | Free |
 | Nightly jobs | GitHub Actions | Free |
-| Job data | Public ATS feeds; Adzuna **free** key; Careerjet free affiliate API | Free |
+| Job data | Public ATS feeds — free; Adzuna and Careerjet are evaluation-only, not part of the required path (Adzuna's free key is a 14-day trial; Careerjet's API is built for live search shown to a visitor, not collection) | Free |
 | Email alerts | Plain SMTP env (e.g. a free Gmail app password); unset = queued/logged | Free |
 | WhatsApp alerts | Env-provided webhook only; unset = queued/logged, never marked sent | Free |
 

@@ -98,7 +98,7 @@ bound to exactly one verified company per recruiter account.
 | API hosting | Render | Free |
 | Web hosting | Vercel | Free |
 | Nightly jobs | GitHub Actions | Free |
-| Data sources | Public ATS feeds; Adzuna with its **free** key only; Careerjet free affiliate API | Free |
+| Data sources | Public ATS feeds — free; Adzuna and Careerjet are evaluation-only, not part of the required path (Adzuna's free key is a 14-day trial; Careerjet's API is built for live search shown to a visitor, not collection) | Free |
 | Optional extras | JSearch / Jooble / Firecrawl / Gemini — env-gated only, never required, never the default path, and the system runs fully with no key at all | Free tier, optional |
 | Email alerts | Plain SMTP env (for example a free Gmail app password); unset = queued and logged | Free |
 | WhatsApp alerts | Only via a webhook I provide through env; unset = queued and logged, never marked sent | Free |
